@@ -1,0 +1,11 @@
+﻿minhth@8440p:~$ ls | grep list
+minhth@8440p:~$ wc -l /etc/passwd
+41 /etc/passwd
+minhth@8440p:~$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           3.6G        1.9G        178M        434M        1.6G        1.1G
+Swap:          7.6G          0B        7.6G
+minhth@8440p:~$ cat /proc/cpuinfo | grep -c "processor"
+4
+minhth@8440p:~$ find Pictures -type f -name "*.jpg" | wc -l
+3
