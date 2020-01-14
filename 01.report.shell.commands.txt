@@ -1,0 +1,50 @@
+﻿minhth@8440p:~$ echo hello world
+hello world
+minhth@8440p:~$ passwd
+Changing password for minhth.
+(current) UNIX password: 
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+minhth@8440p:~$ date
+Tue Jan 14 10:19:21 +07 2020
+minhth@8440p:~$ hostname
+8440p
+minhth@8440p:~$ arch
+x86_64
+minhth@8440p:~$ uname -a
+Linux 8440p 5.0.0-37-generic #40~18.04.1-Ubuntu SMP Thu Nov 14 12:06:39 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+minhth@8440p:~$ dmesg
+[    0.000000] microcode: microcode updated early to revision 0x7, date = 2018-04-23
+[    0.000000] Linux version 5.0.0-37-generic (buildd@lcy01-amd64-023) (gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1)) #40~18.04.1-Ubuntu SMP Thu Nov 14 12:06:39 UTC 2019 (Ubuntu 5.0.0-37.40~18.04.1-generic 5.0.21)
+[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.0.0-37-generic root=UUID=6e4363b9-a96c-4fe4-8eda-790b04270b58 ro quiet splash vt.handoff=1
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+minhth@8440p:~$ uptime
+ 10:22:04 up  1:50,  1 user,  load average: 0.49, 0.57, 0.46
+minhth@8440p:~$ who am i
+minhth@8440p:~$ whoami
+minhth
+minhth@8440p:~$ who
+minhth   :0           2020-01-14 10:18 (:0)
+minhth@8440p:~$ id
+uid=1000(minhth) gid=1000(minhth) groups=1000(minhth),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),116(lpadmin),126(sambashare)
+minhth@8440p:~$ last
+minhth   :0           :0               Tue Jan 14 10:18   still logged in
+minhth   :0           :0               Tue Jan 14 08:32 - 10:18  (01:45)
+reboot   system boot  5.0.0-37-generic Tue Jan 14 08:31   still running
+minhth   :0           :0               Tue Jan 14 04:16 - down   (00:15)
+reboot   system boot  5.0.0-37-generic Tue Jan 14 04:15 - 04:31  (00:16)
+
+wtmp begins Tue Jan 14 04:15:01 2020
+minhth@8440p:~$ finger
+
+Command 'finger' not found, but can be installed with:
+
+sudo apt install finger
+
+minhth@8440p:~$ w
+ 10:22:28 up  1:51,  1 user,  load average: 0.38, 0.54, 0.45
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+minhth   :0       :0               10:18   ?xdm?   2:37   0.01s /usr/lib/gdm3/g
